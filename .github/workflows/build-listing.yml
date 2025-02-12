@@ -43,7 +43,7 @@ jobs:
       - name: Checkout Automation Repository
         uses: actions/checkout@v4
         with:
-          repository: hoshinolabs-vrchat/package-list-action
+          repository: ikuko/package-list-action
           path: ${{ env.pathToCi }}
           clean: false
 
